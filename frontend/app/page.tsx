@@ -101,7 +101,7 @@ export default function Home() {
                     <span className="text-sm">Batch processing support</span>
                   </div>
                 </div>
-                <Link href="/round1a" className="block">
+                <Link href="/" className="block">
                   <Button className="w-full mt-6 group-hover:bg-primary/90 transition-colors">
                     Start Text Extraction
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -110,39 +110,39 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            {/* Feature 2: Multi-PDF Job Analysis */}
+          
             <Card className="group hover:shadow-lg transition-all duration-300 border-2 hover:border-primary/20">
               <CardHeader className="text-center pb-4">
                 <div className="mx-auto mb-4 p-4 bg-secondary/10 rounded-full w-fit">
                   <Users className="h-12 w-12 text-secondary" />
                 </div>
                 <CardTitle className="text-2xl mb-2" style={{ fontFamily: "var(--font-playfair)" }}>
-                  Multi-PDF Job Analysis
+                 PersonaParse
                 </CardTitle>
                 <CardDescription className="text-base">
-                  Analyze multiple PDFs against job roles and descriptions to generate comprehensive insights
+                 AI-powered persona-driven extraction that analyzes multiple PDFs against specific job rols and tasks using smeantic matching to deliver ranked, relevant insights
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="h-5 w-5 text-secondary flex-shrink-0" />
-                    <span className="text-sm">Multi-document processing</span>
+                    <span className="text-sm">Semantic similarity matching with AI</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="h-5 w-5 text-secondary flex-shrink-0" />
-                    <span className="text-sm">Job role matching analysis</span>
+                    <span className="text-sm">Persona-driven content extraction</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="h-5 w-5 text-secondary flex-shrink-0" />
-                    <span className="text-sm">Comprehensive reporting</span>
+                    <span className="text-sm">Relevance ranking & filtering</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="h-5 w-5 text-secondary flex-shrink-0" />
-                    <span className="text-sm">Custom data generation</span>
+                    <span className="text-sm">Structured JSON output with Metadata</span>
                   </div>
                 </div>
-                <Link href="/round1b" className="block">
+                <Link href="/PersonaParse" className="block">
                   <Button variant="secondary" className="w-full mt-6 group-hover:bg-secondary/90 transition-colors">
                     Start Job Analysis
                     <ArrowRight className="ml-2 h-4 w-4" />
